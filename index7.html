@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Games</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/421532256b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark custom-cursor-default-hover"  data-bs-theme="dark">
+        <div class="container-fluid navegador">
+        <img src="imagenes/vanilla.svg" alt="" style="width: 2%;">
+        <a class="navbar-brand" href="index.html">Vanilla Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="negativeMargin"></span>
+          </button>
+          <div class="collapse navbar-collapse navegador" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TOP5 Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A cerca de</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item mt-1 me-2">
+                        <span class="visually-hidden">(current)</span>
+                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">PROYECTOS <img src="imagenes/user.png" style="width: 25px; background-color: white;" alt="">
+                                <span class="visually-hidden">(current)</span>
+                                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                              </a>
+                    </li>
+                </ul>
+             </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <h1 class="text-left tamañoInicia ms-5 mt-5 mb-5">Panel de administración</h1>
+
+
+        <div class="container">
+
+          <div class="border border row">
+          <div class="col-6 p-2 text-black ">Usuarios</div>
+                    <div class="col-6 p-2 bg-light border" style="height: 50px;"><a href="index6.html" class="border-1 text-decoration-none bg-light text-primary">Proyectos</a>
+                    
+                
+                    </div>
+                    
+                    <div class="p-3 row ">       
+                        <div class="input-group" style="margin-top: 20px; width: 650px;">      
+                            <span class="input-group-text ms-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control" placeholder="Buscador">
+                            <span class="input-group-text"><i class="fa-solid fa-xmark"></i></span>
+                          </div> 
+                           
+                            
+                            </div>             
+                            
+          </div>
+                    
+            <table class="table ms-4 me-5" style="margin-top: 50px; width: 1250px;">
+              <thead class="me-5">
+                <tr>
+                  <th class="col-1">User</th>
+                  <th class="col-2">URL Imagen <i class="fa-solid fa-caret-down"></i></th>
+                  <th class="col-2">Email <i class="fa-solid fa-caret-down"></i></th>
+                  <th class="col-2">Nombre <i class="fa-solid fa-caret-up"></i></th>
+                  <th class="col-2">Apellidos <i class="fa-solid fa-caret-up"></i></th>
+                  <th class="col-1">Fecha <i class="fa-solid fa-caret-up"></i></th>
+                  <th class="col-1">Rol <i class="fa-solid fa-caret-up"></i></th>
+                  <th class="col-1">Estado <i class="fa-solid fa-caret-up"></i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="col-1" scope="row"><img src="imagenes/editUser.png" style="width: 150%; margin-left: -10px; margin-right: -1000px;" alt=""></th>
+                  <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="https://imagen.com" autocomplete="off"></td>
+                  <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="email@email.com" autocomplete="off"></td>
+                  <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Nombre usuario" autocomplete="off"></td>
+                  <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Apellidos usuario" autocomplete="off"></td>
+                  <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off"></td>
+                  <td class="col-1"><input style="width: 67.5px;"  type="password" class="form-control mb-4" placeholder="opcion" autocomplete="off"></td>
+                  <td class="col-3 d-flex">
+                  <input style="width: 67.5px;"  type="password" class="form-control mb-4"  placeholder="opcion" autocomplete="off">
+                  <button type="button" class="btn btn btn-success ms-4 mb-4">Actualizar</button>
+                  <button type="button" class="btn btn-outline-danger ms-3 mb-4"><i class="fa-regular fa-trash-can"></i></button>
+                  </td>
+                </tr>
+
+                <tr>
+                    <th class="col-1" scope="row"><img src="imagenes/editUser.png" style="width: 150%; margin-left: -10px; margin-right: -1000px;" alt=""></th>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="https://imagen.com" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="email@email.com" autocomplete="off"></td>
+                    <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Nombre usuario" autocomplete="off"></td>
+                    <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Apellidos usuario" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 67.5px;"  type="password" class="form-control mb-4" placeholder="opcion" autocomplete="off"></td>
+                    <td class="col-3 d-flex ">
+                    <input style="width: 67.5px;"  type="password" class="form-control mb-4" placeholder="opcion" autocomplete="off">
+                    <button type="button" class="btn btn btn-success ms-4 mb-4">Actualizar</button>
+                    <button type="button" class="btn btn-outline-danger ms-3 mb-4"><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="col-1" scope="row"><img src="imagenes/editUser.png" style="width: 150%; margin-left: -10px; margin-right: -1000px;" alt=""></th>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="https://imagen.com" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="email@email.com" autocomplete="off"></td>
+                    <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Nombre usuario" autocomplete="off"></td>
+                    <td class="col-2"><input style="width: 150px;"  type="password" class="form-control" placeholder="Apellidos usuario" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 150px;"  type="password" class="form-control" placeholder="dd/mm/aaaa" autocomplete="off"></td>
+                    <td class="col-1"><input style="width: 67.5px;"  type="password" class="form-control" placeholder="opcion" autocomplete="off"></td>
+                    <td class="col-3 d-flex">
+                    <input style="width: 67.5px;"  type="password" class="form-control mb-4" placeholder="opcion" autocomplete="off">
+                    <button type="button" class="btn btn btn-success ms-4 mb-4">Actualizar</button>
+                    <button type="button" class="btn btn-outline-danger ms-3 mb-4"><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                  </tr>
+
+
+              </tbody>
+            </table>
+        
+          </div>
+
+    <footer>
+        <div class="fixed-bottom container-fluid">
+          <div class="d-flex justify-content-between align-items-center p-4">
+              <div>
+                  <img src="imagenes/vanilla.svg" style="width: 25px;" alt="">
+                  <a class="navbar-brand" href="#">FPLlefià</a>
+              </div>
+                <div class="text-center">
+                  <a class="nav-link" href="#">@Texto de header</a>
+              </div>
+                <div>
+                  <a class="nav-link" href="#">Vínculo header</a>
+              </div>
+          </div>
+      </div>
+      </footer>
+
+    </body>
+
+
+    
+</html>

@@ -1,0 +1,38 @@
+.navegador{
+    margin-left: 15%;
+}
+
+.tamañoTit{
+    font-size: 90px;
+
+}
+
+.tamañoInicia{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.datosInicia{
+    margin-top: 75px;
+    height: 330px;
+}
+
+.datosDentroInicia{
+    margin-top: -25px;
+}
+
+.datosReg{
+    margin-top: 75px;
+    height: 450px;
+}
+
+.datosDentroReg{
+    margin-top: -35px;
+}
+
+
+.datosDivProyectos{
+    margin-top: 75px;
+    height: 450px;
+
+}
